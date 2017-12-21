@@ -1,0 +1,248 @@
+/*================================1024px================================*/
+@media only screen and (max-width: 1025px){
+header .top{
+	width:100%;
+	padding:20px 50px;
+	}
+header .top #menu{
+   width: 20%;
+   float:right;
+   display: none;
+}
+header .top #menu img{
+	width: 32px;
+	height: 28px;
+	float: right;
+	}
+header .top .nav{
+	width:70%;	
+}
+section {
+    width: 100%;
+    height: 9800px;
+}
+section #siderBar{
+		display: none;
+	}
+
+section #middle .desc_bg .desc_inner{
+	padding: 80px 5%;
+}
+section #middle .desc_bg .desc_inner p{
+	font-size: 1.2em;
+}
+section #two #top .desc_bg{
+  height: 80%;
+  background: url(../img/monohosei_IMG_9546.jpg) center no-repeat;
+}
+section #two #top .desc_bg .desc_inner{
+    padding-top: 20%;}
+section #two  #middle .desc_bg .desc_inner .lb1{
+    height: 420px;
+    width: 100%;
+
+}
+section #two  #middle .desc_bg .desc_inner .lb2{
+    height: 420px;
+    width: 100%;
+
+}
+}
+/*================================768px================================*/
+@media only screen and (max-width: 769px){
+section {
+    width: 100%;
+    height: 9400px;
+}
+#m_nav{
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+    z-index: 99999;
+    text-align: center;
+}
+#m_nav li{
+    padding-top: 40px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+#m_nav li a{
+    color: #B8B8B8;
+}
+#m_nav li:hover a{
+    color: #ccc;
+}
+header .top{
+	 padding:20px;
+	}
+header .top .nav{
+    	display: none;
+    }
+header .top h1{
+	width:80%;	
+}
+header .top h1 img{
+	width: 80%;
+}
+header .top #menu{
+   display: block;
+   position: absolute;
+   right: 3%;
+   transition: 0.2s;
+	}	
+
+section  #middle .desc_bg .desc_inner{
+	padding: 10px 3%;
+}
+section  #middle .desc_bg .desc_inner p{
+	font-size: 1.1em;
+}
+section  #middle .desc_bg .desc_inner #video{
+  	padding-top: 80px;
+  }	
+section #two #middle .desc_bg .desc_inner{
+    padding: 20px 2%;}
+section #two  #middle .desc_bg .desc_inner img{
+    width: 100%;
+  }
+section #two  #middle .desc_bg .desc_inner .lb1{
+    height: 430px;
+
+}
+section #two  #middle .desc_bg .desc_inner .lb2{
+    height: 430px;
+
+}
+}
+
+/*================================674px================================*/
+@media only screen and (max-width: 675px){
+section {
+    width: 100%;
+    height: 12800px;
+
+}
+section #two #top .desc_bg .desc_inner{
+	width: 90%;
+  padding-top: 40%;}
+section #two #top .desc_bg .desc_inner #h1{
+    font-size: 3.6em;
+  }
+section #two #top .desc_bg .desc_inner p{
+    font-size: 1.2em;
+
+}
+section #two #middle .desc_bg .desc_inner p{
+    font-size: 1.2em;
+}
+section  #three  #middle .desc_bg .desc_inner #img{
+    width: 100%;
+  }
+section #three #middle .desc_bg .desc_inner #img #img1{
+    width: 100%;
+   }
+section #three #middle .desc_bg .desc_inner #img #img2{
+    width: 100%;
+   }
+section #three {
+    height: 3000px;
+}
+ section #four #middle .desc_bg .desc_inner #img #img1{
+    width: 100%;
+   }
+ section #four #middle .desc_bg .desc_inner #img #img2{
+    width: 100%;
+   }
+section #four {
+    height: 2100px;
+}
+section #five #middle .desc_bg .desc_inner #img #img1{
+    width: 100%;
+   }
+section #five #middle .desc_bg .desc_inner #img #img2{
+    width: 100%;
+   }
+section #five #middle .desc_bg .desc_inner #img_1 #img1{
+    width: 100%;
+    }
+    section #five #middle .desc_bg .desc_inner #img_1 #img2{
+    width: 100%;
+    }
+ section  #five  #middle .desc_bg .desc_inner #img_2 img{
+    width: 48%;
+    margin-top: -4px;
+    }
+  footer .desc_bg p{
+    font-size: 1.1em;
+}
+}
+/*================================414px================================*/	
+@media only screen and (max-width: 415px){
+section {
+    width: 100%;
+    height: 11100px;
+}
+
+section #two{
+height:1900px;
+}
+section #three {
+    height: 2300px;
+}
+section #two #top .desc_bg .desc_inner{
+    padding-top: 60%;}
+section #four #top .desc_bg .desc_inner #h1{
+		font-size: 4.2em;
+		word-wrap: break-word;
+	}
+section #two  #middle .desc_bg .desc_inner .lb1{
+    height: 270px;}
+section #two  #middle .desc_bg .desc_inner .lb2{
+    height: 270px;}
+footer .desc_bg div{
+    padding-top: 40px;
+}
+footer .desc_bg p a{
+	word-wrap: break-word;
+}
+footer .desc_bg input{
+	width: 100%;
+	margin:0;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+}
+/*================================320px================================*/
+@media only screen and (max-width: 320px){
+
+ section {
+    width: 100%;
+    height: 10600px;
+}
+
+section #two{
+	height:1700px;
+	}    
+section #two #middle .desc_bg .desc_inner p{
+    font-size: 0.9em;
+}
+section #two #middle .desc_bg .desc_inner #title{
+    font-size: 1.2em;
+}
+section #two  #middle .desc_bg .desc_inner .lb1{
+    height: 220px;}
+section #two  #middle .desc_bg .desc_inner .lb2{
+    height: 220px;}
+section #three {
+    height: 2100px;
+}
+section #four #top .desc_bg .desc_inner #h1{
+		font-size: 4.2em;
+		word-wrap: break-word;
+	}
+section  #four  #middle .desc_bg .desc_inner #img #img2 p{
+    font-size: 1em;
+}
+
+}
